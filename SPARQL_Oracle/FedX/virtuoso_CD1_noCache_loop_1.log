@@ -1,0 +1,438 @@
+
+		Tue Dec 09 2014
+17:03:12 ERROR: Can't open HTTP log file (/home/nassopoulos2/virtuoso_old_version/logs/http09122014.log)
+17:03:12 INFO: { Loading plugin 1: Type `plain', file `wikiv' in `/home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting'
+17:03:12 INFO:   WikiV version 0.6 from OpenLink Software
+17:03:12 INFO:   Support functions for WikiV collaboration tool
+17:03:12 INFO:   SUCCESS plugin 1: loaded from /home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting/wikiv.so }
+17:03:12 INFO: { Loading plugin 2: Type `plain', file `mediawiki' in `/home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting'
+17:03:12 INFO:   MediaWiki version 0.1 from OpenLink Software
+17:03:12 INFO:   Support functions for MediaWiki collaboration tool
+17:03:12 INFO:   SUCCESS plugin 2: loaded from /home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting/mediawiki.so }
+17:03:12 INFO: { Loading plugin 3: Type `plain', file `creolewiki' in `/home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting'
+17:03:12 INFO:   CreoleWiki version 0.1 from OpenLink Software
+17:03:12 INFO:   Support functions for CreoleWiki collaboration tool
+17:03:12 INFO:   SUCCESS plugin 3: loaded from /home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting/creolewiki.so }
+17:03:12 INFO: OpenLink Virtuoso Universal Server
+17:03:12 INFO: Version 06.01.3127-pthreads for Linux as of Oct  7 2014
+17:03:12 INFO: uses parts of OpenSSL, PCRE, Html Tidy
+17:03:12 INFO: Database version 3126
+17:03:12 INFO: SQL Optimizer enabled (max 1000 layouts)
+17:03:14 INFO: Compiler unit is timed at 0.000428 msec
+17:03:15 DEBUG: built-in procedure "repl_undot_name" overruled by the RDBMS
+17:03:15 INFO: Roll forward started
+17:03:15 INFO:     602 transactions, 23516 bytes replayed (100 %)
+17:03:15 INFO: Roll forward complete
+17:03:15 INFO: Checkpoint started
+17:03:15 INFO: Checkpoint finished, log reused
+17:03:15 INFO: HTTP/WebDAV server online at 8890
+17:03:16 INFO: Server online at 1111 (pid 10382)
+17:03:22 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  DB.DBA.sys_save_http_history (?, ?)
+17:03:23 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:23 INFO: COMP_2 106 172.16.8.89 Internal:8712 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:23 INFO: COMP_2 0 172.16.8.89 Internal:8713 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:23 INFO: COMP_2 106 172.16.8.89 Internal:8713 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:23 INFO: COMP_2 0 172.16.8.89 Internal:8714 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:23 INFO: COMP_2 106 172.16.8.89 Internal:8714 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:23 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:23 INFO: COMP_2 106 172.16.8.89 Internal:8715 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:27 INFO: COMP_2 0 172.16.8.89 Internal:8710 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:27 INFO: COMP_2 106 172.16.8.89 Internal:8710 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:27 INFO: COMP_2 0 172.16.8.89 Internal:8709 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:27 INFO: COMP_2 106 172.16.8.89 Internal:8709 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:27 INFO: COMP_2 0 172.16.8.89 Internal:8719 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:27 INFO: COMP_2 106 172.16.8.89 Internal:8719 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:27 INFO: COMP_2 0 172.16.8.89 Internal:8711 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:27 INFO: COMP_2 106 172.16.8.89 Internal:8711 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8708 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8708 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8717 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8717 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8716 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8716 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8703 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8703 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8705 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8705 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8701 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8701 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8707 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8707 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8702 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8702 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:-56836 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:-56836 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> SELECT * WHERE { ?s ?p ?o } LIMIT 1
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8712 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8713 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8714 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8713 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8712 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8715 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8714 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8710 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8717 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8710 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8717 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8719 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8719 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8702 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8702 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8707 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8707 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:-56836 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8703 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8709 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:-56836 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8703 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8701 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8705 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8709 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8710 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8701 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8705 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8714 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8716 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8713 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8708 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8709 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8710 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8719 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8708 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8711 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8717 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8711 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8716 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8714 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8705 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8715 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8703 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8713 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8716 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8708 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8709 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8701 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8719 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8708 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8711 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> ASK {<http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8707 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8717 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8711 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8716 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8705 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8703 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:-56836 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8701 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8702 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8707 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:-56836 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8702 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> ASK {?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8711 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8709 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8713 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8712 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8714 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8711 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8715 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8709 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8713 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8710 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8714 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8710 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8716 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8716 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8708 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8719 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8708 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8719 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8717 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8717 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8707 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8707 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8702 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8702 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:-56836 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:-56836 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8703 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8703 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8701 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8701 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 0 172.16.8.89 Internal:8705 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> ASK {?subject ?predicate ?object .  }
+}
+17:03:28 INFO: COMP_2 106 172.16.8.89 Internal:8705 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> ASK {?subject ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT  ?subject WHERE { ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8709 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8711 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT  ?subject WHERE { ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama> .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8709 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8710 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8711 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8712 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8715 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8710 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT  ?predicate ?object WHERE { <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8709 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8714 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8709 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8714 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8717 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8717 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8717/dbpediaPerson> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8711 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8711 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:-56836 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8710 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8701 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:-56836 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8700/drugbank> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8710 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8701 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8701/kegg> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8708 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8705 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8708 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8708/dbpediaOwl> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8703 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8705 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8705/jamendo> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8703 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8703/geonames> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8716 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8719 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8716 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8716/dbpediaSkos> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8719 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8707 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8712 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8715 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8702 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8707 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 0 172.16.8.89 Internal:8713 Compile text:  sparql { define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8702 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8702/chebi> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}
+17:03:33 INFO: COMP_2 106 172.16.8.89 Internal:8713 Compile text:  sparql {define sql:big-data-const 0 define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> SELECT  ?predicate ?object WHERE { <http://data.nytimes.com/47452218948077706853> ?predicate ?object .  }
+}

@@ -1,0 +1,716 @@
+
+		Wed Dec 10 2014
+14:07:53 ERROR: Can't open HTTP log file (/home/nassopoulos2/virtuoso_old_version/logs/http10122014.log)
+14:07:53 INFO: { Loading plugin 1: Type `plain', file `wikiv' in `/home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting'
+14:07:53 INFO:   WikiV version 0.6 from OpenLink Software
+14:07:53 INFO:   Support functions for WikiV collaboration tool
+14:07:53 INFO:   SUCCESS plugin 1: loaded from /home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting/wikiv.so }
+14:07:53 INFO: { Loading plugin 2: Type `plain', file `mediawiki' in `/home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting'
+14:07:53 INFO:   MediaWiki version 0.1 from OpenLink Software
+14:07:53 INFO:   Support functions for MediaWiki collaboration tool
+14:07:53 INFO:   SUCCESS plugin 2: loaded from /home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting/mediawiki.so }
+14:07:53 INFO: { Loading plugin 3: Type `plain', file `creolewiki' in `/home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting'
+14:07:53 INFO:   CreoleWiki version 0.1 from OpenLink Software
+14:07:53 INFO:   Support functions for CreoleWiki collaboration tool
+14:07:53 INFO:   SUCCESS plugin 3: loaded from /home/nassopoulos2/virtuoso_old_version/lib/virtuoso/hosting/creolewiki.so }
+14:07:53 INFO: OpenLink Virtuoso Universal Server
+14:07:53 INFO: Version 06.01.3127-pthreads for Linux as of Oct  7 2014
+14:07:53 INFO: uses parts of OpenSSL, PCRE, Html Tidy
+14:07:53 INFO: Database version 3126
+14:07:53 INFO: SQL Optimizer enabled (max 1000 layouts)
+14:07:54 INFO: Compiler unit is timed at 0.000476 msec
+14:07:55 DEBUG: built-in procedure "repl_undot_name" overruled by the RDBMS
+14:07:55 INFO: Roll forward started
+14:07:55 INFO:     123 transactions, 4835 bytes replayed (100 %)
+14:07:55 INFO: Roll forward complete
+14:07:55 INFO: Checkpoint started
+14:07:55 INFO: Checkpoint finished, log reused
+14:07:56 INFO: HTTP/WebDAV server online at 8890
+14:07:56 INFO: Server online at 1111 (pid 1161)
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  DB.DBA.sys_save_http_history (?, ?)
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8703 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8703/geonames> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8707 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8712 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8703 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8703/geonames> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8715 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8707 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8702 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8702/chebi> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8708 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8708/dbpediaOwl> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8701 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8701/kegg> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8702 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8702/chebi> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8708 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8708/dbpediaOwl> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8701 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8701/kegg> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8716 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8716/dbpediaSkos> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8716 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8716/dbpediaSkos> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8713 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8713 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:-56836 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8700/drugbank> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:-56836 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8700/drugbank> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8719 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8719 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8703 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8703/geonames> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8703 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8703/geonames> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8710 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8705 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8705/jamendo> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8710 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8705 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8705/jamendo> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:-1056955902 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8706/semanticWebDogFood> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:-1056955902 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8706/semanticWebDogFood> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8714 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:-1056955902 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8706/semanticWebDogFood> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8714 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8701 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8701/kegg> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:-1056955902 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8706/semanticWebDogFood> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8701 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8701/kegg> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:-56836 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8700/drugbank> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:-56836 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8700/drugbank> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8719 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8707 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8719 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8707 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT ?subject WHERE {
+        ?subject <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barack_Obama>
+
+}
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8717 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8717/dbpediaPerson> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8717 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8717/dbpediaPerson> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8709 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8709 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8705 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8705/jamendo> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8711 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8705 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8705/jamendo> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8711 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT ?predicate ?object WHERE {
+        <http://dbpedia.org/resource/Barack_Obama> ?predicate ?object
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8718 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8718 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8718/dbpediaNytimes> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8709 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8709 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8709/dbpediaInstancesTypes> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8702 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8702/chebi> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8712 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8702 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8702/chebi> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8712 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8712/dbpediaArticles> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8707 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8707 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8707/linkedmdb> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8710 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8710 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8710/dbpediaInfoBox> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8716 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8716/dbpediaSkos> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8716 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8716/dbpediaSkos> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:-56836 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8700/drugbank> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:-56836 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8700/drugbank> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8715 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8715 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8715/dbpediaImages> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8701 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8701/kegg> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8701 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8701/kegg> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8703 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8703/geonames> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8713 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8703 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8703/geonames> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8713 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8713/dbpediaCategoryLabels> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8704 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8704 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8704/nytimesNews> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:-1056955902 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8706/semanticWebDogFood> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:-1056955902 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8706/semanticWebDogFood> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8717 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8717/dbpediaPerson> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8719 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8717 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8717/dbpediaPerson> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8719 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8719/dbpediaLGD> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8711 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8711 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8711/dbpediaLabels> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8708 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8708/dbpediaOwl> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8708 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8708/dbpediaOwl> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8705 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8705/jamendo> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8705 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8705/jamendo> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 0 172.16.8.89 Internal:8714 Compile text:  sparql { define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
+14:08:03 INFO: COMP_2 106 172.16.8.89 Internal:8714 Compile text:  sparql {define sql:big-data-const 0 
+#output-format:application/sparql-results+json
+define input:default-graph-uri <http://localhost:8714/dbpediaGeoCordinates> SELECT ?predicate ?object ?subject WHERE {
+        ?subject ?predicate ?object . FILTER ((?subject=<http://data.nytimes.com/47452218948077706853>))
+
+} LIMIT 10000 OFFSET 0
+}
