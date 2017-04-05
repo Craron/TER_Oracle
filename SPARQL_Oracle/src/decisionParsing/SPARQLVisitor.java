@@ -125,7 +125,6 @@ public class SPARQLVisitor implements OpVisitor {
 			if(t.getPredicate().toString().equals("http://www.w3.org/2000/01/rdf-schema#label") ||
 					t.getPredicate().toString().equals("http://www.w3.org/2000/01/rdf-schema#type")) // TODO read it in a file
 			{
-				// TODO abstract it (file?)
 				++nbPredicatGenerique;
 			}
 			listNode.add(nh);

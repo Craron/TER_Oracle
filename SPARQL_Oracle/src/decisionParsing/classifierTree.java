@@ -40,14 +40,14 @@ public class classifierTree {
 		 {
 			 System.out.println(st.toString());
 			 System.out.println(((weka.core.Option) st).description());
-		 }
-		 */
+		 }*/
+		 
 		 // train and make predictions
 		 test.setClass(test.attribute("Class"));
 		 train.setClass(train.attribute("Class"));
 		 fc.buildClassifier(train);
 		 
-		 /*
+		 
 		 System.out.println(fc.graph());
 		 for (int i = 0; i < 10 ; i++) //test.numInstances()
 		 {
@@ -56,11 +56,11 @@ public class classifierTree {
 		   System.out.print(", actual: " + test.classAttribute().value((int) test.instance(i).classValue()));
 		   System.out.println(", predicted: " + test.classAttribute().value((int) pred));
 		 }
-		 */
+		 
 		 
 		 
 		// display classifier
-		 /*
+		 
 	     final javax.swing.JFrame jf = 
 	       new javax.swing.JFrame("Weka Classifier Tree Visualizer: J48");
 	     jf.setSize(500,400);
@@ -77,7 +77,7 @@ public class classifierTree {
 
 	     jf.setVisible(true);
 	     tv.fitToScreen();
-	     */
+	     
 	}
 
 }

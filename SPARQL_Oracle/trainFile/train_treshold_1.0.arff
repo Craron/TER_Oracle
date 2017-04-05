@@ -1,0 +1,30 @@
+@relation MyRelation
+
+@attribute isASK numeric
+@attribute isSELECT numeric
+@attribute isCONSTRUCT numeric
+@attribute valLIMIT numeric
+@attribute valOFFSET numeric
+@attribute hasVarPref numeric
+@attribute usePrefix numeric
+@attribute nbGROUPBY numeric
+@attribute nbUNION numeric
+@attribute nbFILTER numeric
+@attribute nbORDERBY numeric
+@attribute nbBGP numeric
+@attribute nbTRIPLE numeric
+@attribute nbSERVICE numeric
+@attribute levenshtein numeric
+@attribute nbOperator numeric
+@attribute selectivity numeric
+@attribute nbVariable numeric
+@attribute nbConcrete numeric
+@attribute nbPredicatGeneric numeric
+@attribute nbVariableLiee numeric
+@attribute ratioVariable numeric
+@attribute ratioConcrete numeric
+@attribute ratioGeneric numeric
+@attribute ratioVLiee numeric
+@attribute Class {underThreshold,upperThreshold}
+
+@data

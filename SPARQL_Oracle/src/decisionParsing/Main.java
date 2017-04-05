@@ -12,7 +12,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 public class Main {
 
 	public static void main(String[] args){
-		//List<Integer> lMin = new ArrayList<Integer>();
+		List<Integer> lMin = new ArrayList<Integer>();
 		
 		System.out.println("begin");
 		SPARQLParser sp1 = new SPARQLParser();
@@ -51,8 +51,8 @@ public class Main {
 		}
 		
 		System.out.println("end!");
-		/*
-		for(double threshold = 0.5;threshold<=0.8;threshold+=0.01) // initial 0.5
+		
+		for(double threshold = 50;threshold<=50;threshold+=1) // initial 0.5
 		{
 			SPARQLParser sp = new SPARQLParser();
 			
@@ -84,6 +84,6 @@ public class Main {
 		}
 		
 		System.out.println("\n\nBorne minimal pour population potentielle : \n"+lMin);
-		*/
+		
 	}
 }
